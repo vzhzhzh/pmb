@@ -117,8 +117,8 @@ body {
 }
 
 .main-navigation {
-  padding-top: 36px;
-  margin-bottom: 85px;
+  padding-top: 32px;
+  margin-bottom: 50px;
   position: relative;
   z-index: 2;
   display: flex;
@@ -172,11 +172,11 @@ body {
 
 .header h1 {
   color: #fff;
-  font-size: 129px;
+  font-size: 120px;
   font-weight: 300;
-  line-height: 128px;
+  line-height: 110px;
   letter-spacing: 3.87px;
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 .header h3 {
@@ -227,6 +227,15 @@ body {
   flex: 1;
   background: rgba(27, 27, 40, 0.07);
   padding: 30px;
+}
+
+.feature-item:hover {
+  border-color: #632273;
+  background: rgba(94, 18, 114, 0.2);
+}
+
+.top-block {
+  min-height: 100vh;
 }
 
 .metrics {
@@ -738,6 +747,13 @@ footer p {
 
 footer {
   padding: 0 24px;
+}
+
+.leave-request {
+  display: inline-block;
+  padding: 16px 24px;
+  border-radius: 12px;
+  background: linear-gradient(95deg, #7b2059 1.94%, #1d1381 97.74%);
 }
 
 @media (max-width: 1200px) {
